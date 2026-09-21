@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim Mumin Dara | IT Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-layout">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__brand">
+                <h1 class="header__name">Ibrahim Mumin Dara</h1>
+                <p class="header__tagline">IT Student | Wisconsin International University College</p>
+            </div>
+            <nav class="header__nav">
+                <a href="#about" class="header__link">About</a>
+                <a href="#quick-facts" class="header__link">Quick Facts</a>
+                <a href="#hobbies" class="header__link">Hobbies</a>
+                <a href="#contact" class="header__link">Contact</a>
+            </nav>
+        </header>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar__box">
+                <h2 class="sidebar__title">Quick Insight</h2>
+                <p class="sidebar__content">
+                    This portfolio project is built using HTML and modern CSS techniques.
+                </p>
+                <p class="sidebar__content">
+                    Throughout the course, I've integrated custom CSS variables, BEM naming standards, Flexbox navigation, and <code>grid-template-areas</code> to structure this full layout.
+                </p>
+            </div>
+        </aside>
+
+        
+        <main class="main">
+            
+            <section id="about" class="about-section">
+                <h2 class="section-heading">About Me</h2>
+                <div class="about-card">
+                    <div class="about-card__image-wrapper">
+                        <img src="profile.jpg" alt="Ibrahim Mumin Dara" class="about-card__image">
+                        <span class="about-card__caption">Ibrahim Mumin Dara, IT Student (2026)</span>
+                    </div>
+                    <div class="about-card__bio">
+                        <p>
+                            Hello! My name is Ibrahim Mumin Dara. I am an Information Technology student at Wisconsin International University College, Ghana, taking ITW 205 (Advance Website Programming).
+                        </p>
+                        <p>
+                            This week's focus was mastering CSS Grid layout control. By using <code>grid-template-areas</code>, the page dynamically manages the header, sidebar, main workspace, and footer across different display sizes.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- QUICK FACTS SECTION -->
+            <section id="quick-facts" class="facts-section">
+                <h2 class="section-heading">Quick Facts</h2>
+                <p class="facts-section__intro">Key details about my academic journey & interest areas</p>
+                
+                <table class="profile-table">
+                    <thead>
+                        <tr class="profile-table__row profile-table__row--header">
+                            <th class="profile-table__heading">Category</th>
+                            <th class="profile-table__heading">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="profile-table__row">
+                            <td class="profile-table__cell profile-table__cell--bold">Role</td>
+                            <td class="profile-table__cell">BSc. Information Technology Student</td>
+                        </tr>
+                        <tr class="profile-table__row">
+                            <td class="profile-table__cell profile-table__cell--bold">Institution</td>
+                            <td class="profile-table__cell">Wisconsin International University College, Ghana</td>
+                        </tr>
+                        <tr class="profile-table__row">
+                            <td class="profile-table__cell profile-table__cell--bold">Core Interest</td>
+                            <td class="profile-table__cell">Software Development & Web Technologies</td>
+                        </tr>
+                        <tr class="profile-table__row">
+                            <td class="profile-table__cell profile-table__cell--bold">Primary Stack</td>
+                            <td class="profile-table__cell">JavaScript, HTML5, CSS3, SQL</td>
+                        </tr>
+                        <tr class="profile-table__row">
+                            <td class="profile-table__cell profile-table__cell--bold">Contact</td>
+                            <td class="profile-table__cell">Muminibrahim795@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- HOBBIES SECTION -->
+            <section id="hobbies" class="hobbies-section">
+                <h2 class="section-heading">Hobbies & Interests</h2>
+                <div class="hobbies-grid">
+                    <article class="hobby-card">
+                        <h3 class="hobby-card__title">Web Development</h3>
+                        <p class="hobby-card__desc">Building clean web applications and experimenting with modern CSS layout architectures.</p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <h3 class="hobby-card__title">Mobile & Tech Hardware</h3>
+                        <p class="hobby-card__desc">Following tech releases, comparing mobile chipsets, displays, and computing hardware.</p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <h3 class="hobby-card__title">Software Engineering</h3>
+                        <p class="hobby-card__desc">Exploring backend concepts, databases, and structural coding concepts.</p>
+                    </article>
+
+                    <article class="hobby-card">
+                        <h3 class="hobby-card__title">Gaming Tactics</h3>
+                        <p class="hobby-card__desc">Analyzing game strategies, tactical formations, and competitive mobile simulations.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer id="contact" class="footer">
+            <p class="footer__contact">Direct Contact: <a href="mailto:Muminibrahim795@gmail.com" class="footer__email">Muminibrahim795@gmail.com</a></p>
+            <p class="footer__copy">&copy; 2026 Ibrahim Mumin Dara. Developed for ITW 205 | WIUC Ghana.</p>
+        </footer>
+    </div>
+</body>
+</html>
